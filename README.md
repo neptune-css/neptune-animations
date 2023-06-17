@@ -6,7 +6,7 @@
 
 ### Using NPM
 
-To install Neptune Animations as a NPM package, run the following commands:
+To install Neptune Animations as a [NPM package](https://www.npmjs.com/package/neptunecss-animations), run the following commands:
 
 ```bash
 npm i neptunecss-animations

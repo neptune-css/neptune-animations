@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [1.0.4] - 2023-06-17
+
+### Added
+
+- Added link to NPM Package in README
+
 ## [1.0.3] - 2023-06-17
 
 ### Chacged
