@@ -1,0 +1,30 @@
+{
+  "name": "neptune-animations",
+  "version": "0.0.1",
+  "description": "The official Neptune animation library",
+  "main": "neptune-animation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neptune-css/neptune-animations.git"
+  },
+  "keywords": [
+    "css",
+    "javascript",
+    "animation",
+    "library",
+    "framework"
+  ],
+  "author": "Colin Grahm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neptune-css/neptune-animations/issues"
+  },
+  "homepage": "https://github.com/neptune-css/neptune-animations#readme",
+  "devDependencies": {
+    "neptunecss": "^1.1.2",
+    "neptunecss-js": "^1.2.1"
+  }
+}
