@@ -1,20 +1,20 @@
 
 
 /* Fading Animations */
-@import url('./src/css/neptune_fade_in.css');
-@import url('./src/css/neptune_fade_out.css');
+@import url('./src/css/neptune_fade_in.min.css');
+@import url('./src/css/neptune_fade_out.min.css');
 
 /* Rotate Animations */
-@import url(./src/css/neptune_rotate.css);
+@import url(./src/css/neptune_rotate.min.css);
 
 /* Scaling Animations */
-@import url('./src/css/neptune_scale.css');
+@import url('./src/css/neptune_scale.min.css');
 
 /* 3D Animations */
-@import url('./src/css/neptune_3d.css');
+@import url('./src/css/neptune_3d.min.css');
 
 /* Other Animations */
-@import url('./src/css/neptune_other.css');
+@import url('./src/css/neptune_other.min.css');
 
 :root {
 	--nep-animation-duration: 1s;

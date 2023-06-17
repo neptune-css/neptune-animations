@@ -1,3 +1,17 @@
+/**
+ * @name NeptuneAnimate
+ * @class
+ *
+ * @param {string} element - Target element
+ * @param {string} animationClass - Class of animation
+ *
+ * @example
+ *
+ * const myElement = document.getElementById("test");
+ * const neptuneAnimate = new NeptuneAnimate(myElement, "nep-pulse");
+ * neptuneAnimate.startAnimation();
+ *
+ */
 export default class NeptuneAnimate {
 	constructor(element, animationClass) {
 	  this.element = element;

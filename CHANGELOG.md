@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [1.0.0] - 23-06-17
+
+### Added
+
+- Fading Animations
+- Rotate Animations
+- Scaling Animations
+- 3D Animations
+- Other Animations
+
 ## [0.0.1] - 2023-06-17
 
 Init project
