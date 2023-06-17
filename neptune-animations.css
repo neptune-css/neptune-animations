@@ -1,27 +1,11 @@
 
 
 /* Fading Animations */
-@import url('./src/css/fade/neptune_fade_in.css');
-@import url('./src/css/fade/neptune_fade_out.css');
+@import url('./src/css/neptune_fade_in.css');
+@import url('./src/css/neptune_fade_out.css');
 
 /* Rotate Animations */
-/* Rotate Right */
-.nep-rotate-right {
-	animation: nep-rotate-right var(--nep-animation-duration) var(--nep-animation-delay) var(--nep-animation-direction) var(--nep-animation-fillmode);
-}
-
-@keyframes nep-rotate-right {
-	100% { transform: rotate(360deg);}
-}
-
-/* Rotate Left */
-.nep-rotate-left {
-	animation: nep-rotate-left var(--nep-animation-duration) var(--nep-animation-delay) var(--nep-animation-direction) var(--nep-animation-fillmode);
-}
-
-@keyframes nep-rotate-left {
-	100% { transform: rotate(-360deg);}
-}
+@import url(./src/css/neptune_rotate.css);
 
 
 
