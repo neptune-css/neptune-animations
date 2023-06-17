@@ -1,0 +1,77 @@
+/* Rotate Right */
+.nep-rotate-right {
+	animation: nep-rotate-right var(--nep-animation-duration) var(--nep-animation-delay) var(--nep-animation-direction) var(--nep-animation-fillmode);
+}
+
+@keyframes nep-rotate-right {
+	100% { transform: rotate(360deg);}
+}
+
+/* Rotate Right In*/
+.nep-rotate-right-in {
+	animation: nep-rotate-right-in var(--nep-animation-duration) var(--nep-animation-delay) var(--nep-animation-direction) var(--nep-animation-fillmode);
+}
+
+@keyframes nep-rotate-right-in {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		transform: rotate(360deg);
+	}
+}
+
+/* Rotate Right Out*/
+.nep-rotate-right-out {
+	animation: nep-rotate-right-out var(--nep-animation-duration) var(--nep-animation-delay) var(--nep-animation-direction) var(--nep-animation-fillmode);
+}
+
+@keyframes nep-rotate-right-out {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		transform: rotate(360deg);
+	}
+}
+
+/* Rotate Left */
+.nep-rotate-left {
+	animation: nep-rotate-left var(--nep-animation-duration) var(--nep-animation-delay) var(--nep-animation-direction) var(--nep-animation-fillmode);
+}
+
+@keyframes nep-rotate-left {
+	100% { transform: rotate(-360deg);}
+}
+
+/* Rotate Left In*/
+.nep-rotate-left-in {
+	animation: nep-rotate-left-in var(--nep-animation-duration) var(--nep-animation-delay) var(--nep-animation-direction) var(--nep-animation-fillmode);
+}
+
+@keyframes nep-rotate-left-in {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		transform: rotate(-360deg);
+	}
+}
+
+/* Rotate Left Out*/
+.nep-rotate-left-out {
+	animation: nep-rotate-left-out var(--nep-animation-duration) var(--nep-animation-delay) var(--nep-animation-direction) var(--nep-animation-fillmode);
+}
+
+@keyframes nep-rotate-left-out {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		transform: rotate(-360deg);
+	}
+}

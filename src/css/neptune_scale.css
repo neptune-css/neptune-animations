@@ -1,0 +1,24 @@
+/* Scale Up */
+.nep-scale-up {
+	animation: nep-scale-up var(--nep-animation-duration) var(--nep-animation-delay) var(--nep-animation-direction) var(--nep-animation-fillmode);
+}
+
+@keyframes nep-scale-up {
+	0% {
+		opacity: 0;
+		transform: scale(0.3);
+	}
+	30% { opacity: 1;}
+	98% { transform: scale(1.1);}
+	100% { transform: scale(1);}
+}
+
+/* Scale Down */
+.nep-scale-down {
+	animation: nep-scale-down var(--nep-animation-duration) var(--nep-animation-delay) var(--nep-animation-direction) var(--nep-animation-fillmode);
+}
+
+@keyframes nep-scale-down {
+	20% { transform: scale(1.3);}
+	100% { transform: scale(0);}
+}
