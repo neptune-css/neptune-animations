@@ -7,7 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
-## [1.0.0] - 23-06-17
+## [1.0.1] - 2023-06-17
+
+## Changed
+
+- neptunecss and neptunecss-js are now dependencies
+
+## [1.0.0] - 2023-06-17
 
 ### Added
 
