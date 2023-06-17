@@ -1,0 +1,17 @@
+.neptune-spin {
+	animation: spin 1s 0s infinite;
+	ani
+}
+
+@keyframes spin {
+	100% { transform: rotate(360deg);}
+}
+
+
+
+.test {
+	margin: 15rem;
+	width: 4rem;
+	height: 4rem;
+	background-color: aqua;
+}

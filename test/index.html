@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="../neptune-animations.css">
+
+	<title>Document</title>
+</head>
+<body>
+	<div class="test" id="test"></div>
+
+	<script type="module">
+		import NeptuneAnimate from "../neptune-animations.js"
+
+		const myElement = document.getElementById("test");
+		const neptuneAnimate = new NeptuneAnimate(myElement, "neptune-spin");
+
+		neptuneAnimate.startAnimation();
+
+		setTimeout(function () {
+			neptuneAnimate.stopAnimation();
+		}, 5000);
+	</script>
+</body>
+</html>
