@@ -35,7 +35,7 @@ To use Neptune Animations with CDN Link, put this line of code in your header:
 And this one at the bottom of yout body:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/neptunecss-animations@latest/neptune-animations.min.js">
+<script src="https://cdn.jsdelivr.net/npm/neptunecss-animations@latest/neptune-animations.min.js"></script>
 ```
 
 ##### Example
