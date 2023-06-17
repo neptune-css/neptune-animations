@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" href="../neptune-animations.css">
+	<link rel="stylesheet" href="test.css">
 
 	<title>Document</title>
 </head>
@@ -15,13 +16,9 @@
 		import NeptuneAnimate from "../neptune-animations.js"
 
 		const myElement = document.getElementById("test");
-		const neptuneAnimate = new NeptuneAnimate(myElement, "neptune-spin");
+		const neptuneAnimate = new NeptuneAnimate(myElement, "nep-fade-out-right");
 
 		neptuneAnimate.startAnimation();
-
-		setTimeout(function () {
-			neptuneAnimate.stopAnimation();
-		}, 5000);
 	</script>
 </body>
 </html>

@@ -3,6 +3,7 @@ export default class NeptuneAnimate {
 	  this.element = element;
 	  this.animationClass = animationClass;
 	  this.animationEndEvent = this.getAnimationEndEvent();
+	  this.stop = this.startAnimation();
 
 	  this.element.addEventListener(this.animationEndEvent, this.handleAnimationEnd.bind(this));
 	}
