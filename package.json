@@ -1,6 +1,6 @@
 {
   "name": "neptunecss-animations",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "The official Neptune animation library",
   "main": "neptune-animation.js",
   "scripts": {

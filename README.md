@@ -56,8 +56,8 @@ And this one at the bottom of yout body:
 	<body>
 		<!-- Your Content -->
 
-		<script src="https://cdn.jsdelivr.net/npm/neptunecss-js@latest/neptune.min.js"></script>
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/neptunecss-animations@latest/neptune-animations.min.js">
+		<script src="https://cdn.jsdelivr.net/npm/neptunecss-js@ Example Page/neptune.min.js"></script>
+	   	<script src="https://cdn.jsdelivr.net/npm/neptunecss-animations@ latest/neptune-animations.min.js"></script>
 	</body>
 </html>
 ```
