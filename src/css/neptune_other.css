@@ -1,0 +1,61 @@
+/* Some Other Animations */
+/* Pulse */
+.nep-pulse {
+	animation: nep-pulse var(--nep-animation-duration) var(--nep-animation-delay) var(--nep-animation-direction) var(--nep-animation-fillmode);
+}
+
+@keyframes nep-pulse {
+	35% { transform: scale(1.2);}
+	50% { transform: scale(1);}
+	85% { transform: scale(1.2);}
+	100% { transform: scale(1);}
+}
+
+/* Shake X */
+.nep-shake-x {
+	animation: nep-shake-x var(--nep-animation-duration) var(--nep-animation-delay) var(--nep-animation-direction) var(--nep-animation-fillmode);
+}
+
+@keyframes nep-shake-x {
+	12.5% { transform: translateX(1rem);}
+	/* 25% { transform: translateX(0);} */
+	37.5% { transform: translateX(-1rem);}
+	/* 50% { transform: translateX(0);} */
+	62.5% { transform: translateX(1rem);}
+	/* 75% { transform: translateX(0);} */
+	87.5% { transform: translateX(-1rem);}
+	100% { transform: translateX(0);}
+}
+
+/* Shake Y */
+.nep-shake-y {
+	animation: nep-shake-y var(--nep-animation-duration) var(--nep-animation-delay) var(--nep-animation-direction) var(--nep-animation-fillmode);
+}
+
+@keyframes nep-shake-y {
+	12.5% { transform: translateY(1rem);}
+	/* 25% { transform: translateY(0);} */
+	37.5% { transform: translateY(-1rem);}
+	/* 50% { transform: translateY(0);} */
+	62.5% { transform: translateY(1rem);}
+	/* 75% { transform: translateY(0);} */
+	87.5% { transform: translateY(-1rem);}
+	100% { transform: translateY(0);}
+}
+
+/* Jelly */
+.nep-jelly {
+	animation: nep-jelly var(--nep-animation-duration) var(--nep-animation-delay) var(--nep-animation-direction) var(--nep-animation-fillmode);
+}
+
+@keyframes nep-jelly {
+	20% {
+		transform: scale(1.3, .9);
+	}
+	50% {
+		transform: scale(.8, 1);
+	}
+	80% {
+		transform: scale(1.2, .8);
+	}
+}

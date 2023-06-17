@@ -10,6 +10,11 @@
 /* Scaling Animations */
 @import url('./src/css/neptune_scale.css');
 
+/* 3D Animations */
+@import url('./src/css/neptune_3d.css');
+
+/* Other Animations */
+@import url('./src/css/neptune_other.css');
 
 :root {
 	--nep-animation-duration: 1s;
