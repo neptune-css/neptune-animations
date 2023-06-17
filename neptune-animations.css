@@ -7,6 +7,8 @@
 /* Rotate Animations */
 @import url(./src/css/neptune_rotate.css);
 
+/* Scaling Animations */
+@import url('./src/css/neptune_scale.css');
 
 
 :root {
