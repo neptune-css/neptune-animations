@@ -1,6 +1,6 @@
 {
   "name": "neptunecss-animations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The official Neptune animation library",
   "main": "neptune-animation.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "url": "https://github.com/neptune-css/neptune-animations/issues"
   },
   "homepage": "https://github.com/neptune-css/neptune-animations#readme",
-  "devDependencies": {
+  "dependencies": {
     "neptunecss": "^1.1.2",
     "neptunecss-js": "^1.2.1"
   }
